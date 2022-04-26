@@ -1,6 +1,6 @@
 # Capstone Project - WMS
 
-This is the codebase for Group 25 - UniqueCoders Capstone Project.
+This is the codebase for Group 25 - UniqueCoders Capstone Project. All features in this repo have been created by Elmer Almeida.
 
 This project is built using the **PERN** stack.
 
@@ -93,29 +93,10 @@ CLIENT_URL = http://localhost:3000
 SERVER_URL = http://localhost:5000
 ```
 
-## NOTE
+# NOTE
 
 Please don't forget to run the following script in the `server` directory **and** the `client` directory:
 
 ```sh
 npm install
 ```
-
----
-
-# Tasks History
-
-**Tasks completed by Elmer.**
-
--   PostgresSQL database, user table and objects table setup.
--   Authentication, registration validation and registration.
--   Protected and restricted routes for auth users and guest users.
--   Create canvas for warehouse objects and clear canvas functionality.
--   Create warehouse objects with resize, rotate, and delete functionality.
--   Export canvas as image.
--   Save warehouse objects endpoint functionality with object validation.
--   Route to view all users and their roles. [Must be a "Management" role]
--   Redux store for the following:
-    -   Quick access to isAuth of the current user.
-    -   Get auth user information.
-    -   Get all registered users information.
