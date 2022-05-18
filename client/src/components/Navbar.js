@@ -93,7 +93,7 @@ const Navbar = (props) => {
 // Default props the navbar should use
 Navbar.defaultProps = {
     applicationName: "WMS",
-    groupName: "UniqueCoders",
+    groupName: "Elmer Almeida",
 };
 
 // Default props defined types

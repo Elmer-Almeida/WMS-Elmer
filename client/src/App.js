@@ -13,9 +13,7 @@ import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import Designer from "./pages/Designer";
 import AllUsers from "./pages/AllUsers";
-import { useDispatch, useSelector } from "react-redux";
-import { fetchAuthUser } from "./redux/slices/userSlice";
-import { useEffect } from "react";
+import { useSelector } from "react-redux";
 
 /**
  * For private routes.

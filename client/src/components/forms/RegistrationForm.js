@@ -91,6 +91,7 @@ const RegistrationForm = ({ values, handleChange, handleSubmit }) => {
 					id="role_type"
 					name="role_type"
 					value={values.role_type}
+          className='form-control'
 					onChange={handleChange}
 				>
 					{role_types_list
